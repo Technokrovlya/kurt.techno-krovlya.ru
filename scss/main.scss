@@ -11,7 +11,32 @@ header {
 		$bg-hdr-clr-l 44%, $bg-hdr-clr-n 45%) #f40;
 	background-size: 30px;
 	height: 140px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
+
+.header-logo {width: 140px; margin-left: 10px; img {width: 100%;}}
+.header-desc {margin-left: 20px;}
+	.header-title {font-size: 1.5em; font-weight: 700;}
+	.header-address {font-weight: 700;}
+	.header-goods {max-width: 300px; font-size: 0.8em; margin: 10px 0;}
+.header-spacer {flex-grow: 1}
+.header-contacts {}
+	.header-telephone {font-weight: 700; font-size: 1em;}
+	.header-opening-hours {
+		margin-top: 10px; 
+		background-color: #444; 
+		color: #fff; 
+		padding: 5px; 
+		font-weight: 700;
+	}
+.header-cart {
+	width: 120px; margin: 0 10px; img {width: 100%;}
+}
+
+
+
 nav {
 	border-top: 1px solid #f00;
 	$bg-nav-clr-n: #444; /*Базовый цвет профлиста*/

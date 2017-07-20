@@ -16,7 +16,21 @@
 <section id="top">
 	<header>
 		
-		
+		<div class="header-logo"><img src="img/logo.svg" alt="Логотип Выгодный Ангар"></div>
+		<div class="header-desc">
+			<div class="header-title">Строительный рынок №1</div>
+			<div class="header-goods">Стройматериалы, электроинструмент, крепёж, электрика, сантехника, все для бани, кованые изделия, ворота, теплицы. Доставка, кредит.</div>
+			<div class="header-address">Куртамыш, ул. Лесная, 1 (Химдым)</div>
+		</div>
+		<div class="header-spacer"></div>
+		<div class="header-contacts">
+			<div><span class="header-telephone">8 (922) 565-00-08</span><span>&nbsp;&mdash; Стройматериалы</span></div>
+			<div><span class="header-telephone">8 (922) 561-25-55</span><span>&nbsp;&mdash; Крепёж</span></div>
+			<div><span class="header-telephone">8 (908) 005-61-66</span><span>&nbsp;&mdash; Дом/сад/огород</span></div>
+			<div><span class="header-telephone">8 (922) 561-27-77</span><span>&nbsp;&mdash; Баня/сауна</span></div>
+			<div class="header-opening-hours">будни 9:00&mdash;17:00, сб-вс 9:00&mdash;14:00</div>
+		</div>
+		<div class="header-cart"><img src="img/cart.svg" alt="Логотип Выгодный Ангар"></div>
 
 	</header>
 	<nav>
