@@ -13,6 +13,23 @@
 <body>
 
 
+<section id="top">
+	<header>
+		
+		
+
+	</header>
+	<nav>
+		<a href="#">О нас</a>
+		<a href="#">Каталог</a>
+		<a href="#">Вакансии</a>
+		<a href="#">Акции</a>
+		<a href="#">Контакты</a>
+	</nav>
+</section>
+
+
+
 
 
 <script src="js/libs.min.js"></script>

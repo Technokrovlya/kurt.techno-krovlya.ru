@@ -1,6 +1,45 @@
 @import "normalize";
 * {font-family: 'Open Sans', sans-serif;}
-body {color: pink;}
+
+header {
+	$bg-hdr-clr-n: #f40; /*Базовый цвет профлиста*/
+	$bg-hdr-clr-l: #f62; /*Цвет профлиста на свету*/
+	$bg-hdr-clr-d: #d30; /*Цвет профлиста в тени*/
+	background: linear-gradient(to right, 
+		$bg-hdr-clr-d 11%, $bg-hdr-clr-n 12%, 
+		$bg-hdr-clr-n 33%, $bg-hdr-clr-l 34%, 
+		$bg-hdr-clr-l 44%, $bg-hdr-clr-n 45%) #f40;
+	background-size: 30px;
+	height: 140px;
+}
+nav {
+	border-top: 1px solid #f00;
+	$bg-nav-clr-n: #444; /*Базовый цвет профлиста*/
+	$bg-nav-clr-l: #555; /*Цвет профлиста на свету*/
+	$bg-nav-clr-d: #333; /*Цвет профлиста в тени*/
+	background: linear-gradient(to right, 
+		$bg-nav-clr-d 11%, $bg-nav-clr-n 12%, 
+		$bg-nav-clr-n 33%, $bg-nav-clr-l 34%, 
+		$bg-nav-clr-l 44%, $bg-nav-clr-n 45%) #444;
+	background-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 70px;
+	a {
+		display: block;
+		padding: 25px;
+		font-size: 1.3em;
+		line-height: 20px;
+		text-decoration: none;
+		text-shadow: 1px 1px 2px #000;
+		color: #fff;
+	}
+	a:hover {
+		background-color: #f62;
+	}
+}
+
 
 
 @media (max-width:100px) {
