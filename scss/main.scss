@@ -10,31 +10,38 @@ header {
 		$bg-hdr-clr-n 33%, $bg-hdr-clr-l 34%, 
 		$bg-hdr-clr-l 44%, $bg-hdr-clr-n 45%) #f40;
 	background-size: 30px;
-	height: 140px;
+	height: 200px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-.header-logo {width: 140px; margin-left: 10px; img {width: 100%;}}
+.header-logo {width: 200px; margin-left: 17px; img {width: 100%;}}
 .header-desc {margin-left: 20px;}
-	.header-title {font-size: 1.5em; font-weight: 700;}
+	.header-title {font-size: 1.8em; font-weight: 700;}
 	.header-address {font-weight: 700;}
-	.header-goods {max-width: 300px; font-size: 0.8em; margin: 10px 0;}
+	.header-goods {max-width: 400px; font-size: 0.8em; margin: 10px 0;}
 .header-spacer {flex-grow: 1}
 .header-contacts {}
-	.header-telephone {font-weight: 700; font-size: 1em;}
+	.header-telephone {font-weight: 700; font-size: 1.3em; line-height: 1.3em}
 	.header-opening-hours {
 		margin-top: 10px; 
 		background-color: #444; 
+		font-size: 0.9em;
 		color: #fff; 
 		padding: 5px; 
-		font-weight: 700;
+		font-weight: 400;
 	}
 .header-cart {
-	width: 120px; margin: 0 10px; img {width: 100%;}
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 240px; margin: 0 10px; img {width: 100%; margin: 20px;}
 }
-
+	.header-cart-desc {}
+	.header-cart-name {font-size: 1.2em; font-weight: 700;}
+	.header-cart-information {font-size: 0.8em; margin: 10px 0;}
+	.header-cart-order-button {background-color: #0ff; text-align: center; font-size: 0.8em; padding: 5px; margin: 5px 0;}
 
 
 nav {

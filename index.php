@@ -30,7 +30,14 @@
 			<div><span class="header-telephone">8 (922) 561-27-77</span><span>&nbsp;&mdash; Баня/сауна</span></div>
 			<div class="header-opening-hours">будни 9:00&mdash;17:00, сб-вс 9:00&mdash;14:00</div>
 		</div>
-		<div class="header-cart"><img src="img/cart.svg" alt="Логотип Выгодный Ангар"></div>
+		<div class="header-cart">
+			<img src="img/cart.svg" alt="Логотип Выгодный Ангар">
+			<div class="header-cart-desc">
+				<div class="header-cart-name">Корзина</div>
+				<div class="header-cart-information">В корзине n товаров на сумму n рублей</div>
+				<div class="header-cart-order-button">Оформить заказ</div>
+			</div>
+		</div>
 
 	</header>
 	<nav>
