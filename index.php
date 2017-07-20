@@ -16,13 +16,6 @@
 
 
 <script src="js/libs.min.js"></script>
-
-<script type="text/javascript"> 
-	if (navigator.userAgent.indexOf('Safari') != -1 && 
-	    navigator.userAgent.indexOf('Chrome') == -1) {
-	        document.body.className += " safari";
-	    }
-</script>
-
+<script src="js/script.js"></script>
 </body>
 </html>
